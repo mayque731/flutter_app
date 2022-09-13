@@ -2,8 +2,8 @@ import 'package:flutter/foundation.dart';
 
 import 'package:flutter/material.dart';
 
-class Appcontroller extends ChangeNotifier {
-  static Appcontroller instance = new Appcontroller();
+class AppController extends ChangeNotifier {
+  static AppController instance = new AppController();
   bool isDarkTheme = false;
 
   ChangeTheme() {
