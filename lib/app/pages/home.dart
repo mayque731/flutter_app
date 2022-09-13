@@ -87,15 +87,22 @@ class HomePageState extends State<HomePage> {
                     color: Colors.indigo,
                   ),
                 ]),
+            Container(
+              width: 50,
+              height: 50,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.yellow,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [const Text("Teste")],
+                    children: [const Text("Mayque")],
                   ),
                 ),
               ],
